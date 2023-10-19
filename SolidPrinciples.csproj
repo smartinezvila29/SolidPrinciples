@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OCP\Audi.cs" />
+    <Compile Include="OCP\Mercedes.cs" />
+    <Compile Include="OCP\Renault.cs" />
     <Compile Include="SRP\Coche.cs" />
     <Compile Include="SRP\CocheDB.cs" />
     <Compile Include="Program.cs" />
