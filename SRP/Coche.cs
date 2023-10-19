@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SolidPrinciples.SRP
 {
-    public class Coche
+    public abstract class Coche
     {
         private string Marca { get; set; }
 
@@ -14,5 +14,7 @@ namespace SolidPrinciples.SRP
         {
             Marca = marca;
         }
+
+        public abstract int precioMedioCoche();
     }
 }
